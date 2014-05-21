@@ -231,8 +231,8 @@ td.expander {
 
 table.columns .text-pad,
 table.column .text-pad {
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 table.columns .left-text-pad,
@@ -369,15 +369,15 @@ a {
 }
 
 a:hover { 
-  color: #2795b6 !important;
+  color: #000000 !important;
 }
 
 a:active { 
-  color: #2795b6 !important;
+  color: #000000 !important;
 }
 
 a:visited { 
-  color: #2ba6cb !important;
+  color: #000000 !important;
 }
 
 h1 a, 
@@ -496,7 +496,7 @@ table.large-button td a {
 table.button:hover td,
 table.button:visited td,
 table.button:active td {
-  background: #2795b6 !important;
+  background: #000000 !important;
 }
 
 table.button:hover td a,
@@ -510,7 +510,7 @@ table.tiny-button:hover td,
 table.small-button:hover td,
 table.medium-button:hover td,
 table.large-button:hover td {
-  background: #2795b6 !important;
+  background: #000000 !important;
 }
 
 table.button:hover td a,
@@ -741,9 +741,9 @@ body.outlook p {
     }
 
     .header {
-      background: #999999;
-    }
-
+      background: #f58025;
+    } 
+    .footer {background: #f58025;}
     .footer .wrapper {
       background: #f58025;
     }
@@ -753,8 +753,8 @@ body.outlook p {
     }
 
     table.columns .text-pad {
-      padding-left: 10px;
-      padding-right: 10px;
+      padding-left: 20px;
+      padding-right: 20px;
     }
 
     table.columns .left-text-pad {
@@ -764,56 +764,13 @@ body.outlook p {
     table.columns .right-text-pad {
       padding-right: 20px;
     }
-
-
-	    table.columns td, table.column td {padding: 0;}
-	    .email-header-container table.column td {padding: 0;}
-	    .email-header {height: 315px;}
-	    .email-footer {height: 250px;}
-	    .email-header .wrapper {padding-top: 0; }
-
-	    .email-header-row     {height: 80px;}
-			
-			.email-header-row h1 {text-transform: uppercase; font-weight: bold;}
-			.email-header-row p {font-size: 16px; font-style: italic;}
-	    .email-header-row h1,
-	    .email-header-row p  {margin-left: 42px; line-height: 1; color: #fff;}
-
-	    .email-row-content {vertical-align: middle;}
-
-	    .email-header-contact {text-align: right; margin-right: 25px;}
-	    .email-header-contact a {margin-right: 25px; color: #ffffff; text-transform: capitalize;}
-	    .email-header-contact a:visited,
-	    .email-header-contact a:hover, 
-	    .email-header-contact a:active {color: #ffffff !important;}
-			
-			.email-content-section h1 {border-top: 1px solid #f58025; padding-top: 15px;}
-			.email-content-section ul {margin:25px 0 35px; padding-left: 20px;}
-			.email-content-section ul li {margin: 5px 0;}
-
-			.last-section ul {margin-left: 0; padding: 0;}
-			.last-section ul li {list-style: none; }
-			.last-section ul li a {
-				display: block; 
-				padding: 5px 0;
-				color: #000000; 
-				border-bottom: 1px solid #000000;
-			}
-
-			.last-section ul li a.no-border {border-bottom: 0;}
-
-			table.columns td.quote-callout {padding: 75px 0;}
-			table.columns td.quote-callout h1 {margin-bottom: 25px; font-style: italic;}
-
-			.footer .wrapper {padding-top: 30px;}
-			.email-footer h1 {margin-bottom: 0;}
-			.email-footer a {display: inline-block; margin: 0 5px;}
-			.email-footer .logo-img {dislpay: block; margin: 0 auto;}
-
-
-
+      
     @media only screen and (max-width: 600px) {
-
+      
+      table.columns .text-pad {
+        padding-left: 10px;
+        padding-right: 10px;
+      }
       table[class="body"] .right-text-pad {
         padding-left: 10px !important;
       }
@@ -822,14 +779,64 @@ body.outlook p {
         padding-right: 10px !important;
       }
     }
-    
-
-
-
-    /*.email-body {padding: 25px;}*/
-
 
   </style>
+    <!-- Custom Styles -->
+  <style>
+    /* === Email Header === */
+    table.columns td, table.column td {padding: 0;}
+    .email-header-container table.column td {padding: 0;}
+    .email-header {height: 229px;}
+    .email-header-row     {height: 57px;}
+    .email-header .wrapper {padding-top: 0; }
+    .email-header-row h1 {text-transform: uppercase; font-weight: bold;}
+    .email-header-row p {font-size: 16px; font-style: italic; margin-bottom: 0;}
+    .email-header-row h1,
+    .email-header-row p  {margin-left: 25px; line-height: 1; color: #fff;}
+    .email-row-content {vertical-align: middle;}
+    .email-header-contact {text-align: right; margin-right: 25px;}
+    .email-header-contact a {margin-right: 25px; color: #ffffff; text-transform: capitalize;}
+    .email-header-contact a:visited,
+    .email-header-contact a:hover, 
+    .email-header-contact a:active {color: #ffffff !important;}
+
+    /* === Email Body === */
+    .email-content-section h1 { border-top: 1px solid #f58025; padding-top: 15px;}
+    .email-content-section ul {margin:25px 0 35px; padding-left: 20px;}
+    .email-content-section ul li {margin: 5px 0;}
+    
+    table.columns td.quote {padding: 75px 0; background-color: #f58025;}
+    table.columns td.quote h1 {margin-bottom: 25px; font-style: italic; border-top:0;}
+
+    .last-section ul {margin-left: 0; padding: 0;}
+    .last-section ul li {list-style: none; }
+    .last-section ul li a {
+      display: block; 
+      padding: 5px 0;
+      border-bottom: 1px solid #000000;
+    }
+    .last-section ul li a:link,
+    .last-section ul li a:visited,
+    .last-section ul li a:hover,
+    .last-section ul li a:active {color: #000000;}
+
+    .last-section .no-border {border-bottom: 0;} /* Removes bottom border from last bullet in last section */
+
+
+    /* === Email Footer === */
+    .email-footer         {height: 235px;}
+    .email-footer-row     {height: 55px;}
+    .footer .wrapper      {padding-top: 30px;}
+    .email-footer h1      {margin-bottom: 0;}
+    .email-footer a {display: inline-block; margin: 0 5px;}
+    .email-footer .logo-img {dislpay: block; margin: 0 auto;}
+  </style>
+
+
+
+
+
+
 </head>
 <body>
 	<table class="body">
@@ -838,7 +845,7 @@ body.outlook p {
 			<td class="center email-container" align="center" valign="top" > 
         <center>
           <!-- email header -->
-          <table class="header email-header" style="background: url(../images/carestream-bg.png);" bgcolor="#f58025"> 
+          <table class="header email-header" style="background: url(images/carestream-bg.png);"> 
             <tr>
               <td class="center" align="center">
                 <center>
@@ -846,6 +853,7 @@ body.outlook p {
                   <table class="container">
                     <tr>
                       <td class="wrapper last">
+
                         <table class="twelve columns email-header-container">
                           <tr class="email-header-row">
                             <td class="twelve columns last email-row-content email-header-contact">
@@ -853,12 +861,12 @@ body.outlook p {
                             </td>
                           </tr>
                           <tr class="email-header-row">
-                            <td class="six sub-columns email-row-content">
+                            <td class="email-row-content">
                               <h1 >Trendwatch</h1>
                             </td>
                           </tr>
                           <tr class="email-header-row">
-                            <td class="six sub-columns email-row-content">
+                            <td class="email-row-content">
                               <p>Your monthly TOPS snapshot of healthcare news</p>
                             </td>
                           </tr>
@@ -883,7 +891,7 @@ body.outlook p {
 
                       <table class="twelve columns">
                         <tr>
-                          <td class="email-content-section text-pad-left text-pad-right">
+                          <td class="email-content-section text-pad">
                             <h1>This is a title example</h1>
                             <ul>
                             	<li>Bullet point title 1</li>
@@ -907,7 +915,7 @@ body.outlook p {
 
                       <table class="twelve columns">
                         <tr>
-                          <td class="email-content-section text-pad-left text-pad-right">
+                          <td class="email-content-section text-pad">
                             <h1>This is a title example</h1>
                             <ul>
                             	<li>Bullet point title 1</li>
@@ -931,7 +939,7 @@ body.outlook p {
 
                       <table class="twelve columns">
                         <tr>
-                          <td class="email-content-section text-pad-left text-pad-right">
+                          <td class="email-content-section text-pad">
                             <h1>This is a title example</h1>
                             <ul>
                             	<li>Bullet point title 1</li>
@@ -953,13 +961,17 @@ body.outlook p {
                 <table class="row">
                   <tr>
                     <td class="wrapper last">
-
-                      <table class="twelve columns callout" bgcolor="#f58025">
+                       <table class="twelve columns">
                         <tr>
-                          <td class="quote-callout left-text-pad right-text-pad">
-                            <h1 class="center">“This is a title example”</h1>
-                            <h2 class="center">- The Author, Apple</h2>
-                            
+                          <td class="email-content-section callout text-pad linked-list"> 
+                            <table>
+                              <tr>
+                                <td class="quote" bgcolor="#f58025" width="580">
+                                  <h1 class="center">“This is a title example”</h1>
+                                  <h2 class="center">- The Author, Apple</h2>
+                                </td>
+                              </tr>
+                            </table>
                           </td>
                           <td class="expander"></td>
                         </tr>
@@ -974,7 +986,7 @@ body.outlook p {
 
                       <table class="twelve columns" >
                         <tr>
-                          <td class="email-content-section last-section text-pad-left text-pad-right">
+                          <td class="email-content-section last-section text-pad">
                             <h1>More Trending Stories</h1>
                             <ul>
                             	<li><a href="#">Here is the 1st link</a></li>
@@ -1005,19 +1017,19 @@ body.outlook p {
                     <tr>
                       <td class="wrapper last">
 
-                        <table class="twelve columns email-footer">
-                          <tr height="20">
+                        <table class="twelve columns">
+                          <tr class="email-footer-row">
                          		<td class="center">
-                         			<a href="#"><img src="../images/carestream-logo.png" alt="Carestream.com" /></a>
+                         			<a href="#"><img src="images/carestream-logo.png" alt="Carestream.com" /></a>
                          		</td>
                           </tr>
-                          <tr height="20">
+                          <tr class="email-footer-row">
                           	<td >
                             	<center>
-                              	<a href="#" height="31" width="31"><img src="../images/carestream-twitter.png" alt="Follow Carestream on Twitter" /></a><a href="#" height="31" width="31"><img src="../images/carestream-facebook.png" alt="Like Carestream on Facebook" /></a><a href="#" height="31" width="31"><img src="../images/carestream-linkedin.png" alt="Follow Carestream on LinkedIn" /></a><a href="#"><img src="../images/carestream-youtube.png" alt="Watch Carestream on YouTube" /></a>
+                              	<a href="https://twitter.com/Carestream" height="31" width="31"><img src="images/carestream-twitter.png" alt="Follow Carestream on Twitter" /></a><a href="https://www.facebook.com/carestream" height="31" width="31"><img src="images/carestream-facebook.png" alt="Like Carestream on Facebook" /></a><a href="https://www.linkedin.com/company/carestream-health" height="31" width="31"><img src="images/carestream-linkedin.png" alt="Follow Carestream on LinkedIn" /></a><a href="https://www.youtube.com/user/carestreamhealth1"><img src="images/carestream-youtube.png" alt="Watch Carestream on YouTube" /></a>
                             	</center>
                           	</td>
-                          <td class="expander"></td>
+                            <td class="expander"></td>
                         	</tr>
                         </table>
                       </td>
