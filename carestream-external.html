@@ -848,6 +848,19 @@ body.outlook p {
   .email-footer a {display: inline-block; margin: 0 5px;}
   .email-footer .logo-img {dislpay: block; margin: 0 auto;}
   
+  @media only screen and (max-width: 600px) {
+      
+      table[class="body"] .columns td.customer-spotlight.eight {
+        width: 90% !important;
+        margin: 0;
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+      }
+
+      table[class="body"] .columns td.customer-spotlight.three {
+        width: 33% !important;
+      }
+    }
   </style>
 
 
@@ -988,7 +1001,13 @@ body.outlook p {
                 
                 <!-- Customer Spotlight -->
                 <!-- Stop'd here! -->
-                <!-- Don't forget to set up mobile styles! -->
+                <!-- Don't forget to set up mobile styles!
+                * something like
+                  width: 100% !important;
+                  margin: 0;
+                  padding: 0;
+                  padding-left: 10px !important;
+                 -->
                 <table class="row">
                   <tr>
                     <td class="wrapper last">
