@@ -793,17 +793,17 @@ body.outlook p {
     .email-header-row h1    {text-transform: uppercase; font-weight: bold;}
     .email-header-row p     {font-size: 16px; font-style: italic; margin-bottom: 0;}
     .email-header-row h1,
-    .email-header-row p     {padding-left: 25px; line-height: 1; color: #fff;}
+    .email-header-row p     {line-height: 1; color: #fff;} /*padding-left: 25px;  */
     .email-row-content      {vertical-align: middle;}
     .email-header-contact   {text-align: right;}
-    .email-header-contact a {padding-right: 25px; color: #ffffff; text-transform: capitalize;}
+    .email-header-contact a {/*padding-right: 25px;*/ color: #ffffff; text-transform: capitalize;} 
     .email-header-contact a:visited,
     .email-header-contact a:hover, 
     .email-header-contact a:active {color: #ffffff !important;}
 
     /* === Email Body === */
     .email-content-section h1     { border-top: 1px solid #f58025; padding-top: 15px;}
-    .email-content-section ul     {margin:25px 0 35px; padding-left: 20px;}
+    .email-content-section ul     {margin:25px 0 35px; /*padding-left: 20px;*/ list-style-position: inside; }
     .email-content-section ul li  {margin: 5px 0;}
     
     table.columns td.quote    {padding: 75px 0; background-color: #f58025;}
@@ -839,8 +839,9 @@ body.outlook p {
 
 
 
+
 </head>
-<body>
+<body style="min-width: 100%">
 	<table class="body">
 		<tr>
       <!-- email body -->
@@ -858,17 +859,17 @@ body.outlook p {
                  <div>
                  	<table class="twelve columns email-header-container">
                  	  <tr class="email-header-row">
-                 	    <td class="twelve columns last email-row-content email-header-contact" style="padding-top: 20px; padding-bottom: 30px;">
+                 	    <td class="twelve columns last email-row-content email-header-contact text-pad" style="padding-top: 20px; padding-bottom: 30px;">
                  	      <a href="#">contact</a>
                  	    </td>
                  	  </tr>
                  	  <tr class="email-header-row">
-                 	    <td class="email-row-content" style="padding-bottom: 30px; ">
+                 	    <td class="email-row-content text-pad" style="padding-bottom: 30px; ">
                  	      <h1 >Trendwatch</h1>
                  	    </td>
                  	  </tr>
                  	  <tr class="email-header-row">
-                 	    <td class="email-row-content">
+                 	    <td class="email-row-content text-pad">
                  	      <p>Your monthly TOPS snapshot of healthcare news</p>
                  	    </td>
                  	  </tr>
