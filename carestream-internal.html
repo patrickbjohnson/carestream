@@ -805,8 +805,8 @@ body.outlook p {
     table.columns td, table.column td {padding: 0;}
     .email-header-container table.column td {padding: 0;}
     .email-header           {height: 229px;}
-    .email-header-row       {height: 57px;}
-    .email-header-row       {padding-bottom: 25px;}/*padding-top: 25px; */
+    .email-header-row       {height: 57px;}   /*  This is breaking everything But only works in LN 8.5*/
+    /*.email-header-row       {padding-bottom: 25px;}/*padding-top: 25px; */
     .email-header .wrapper  {padding-top: 0; }
     .email-header-row h1    {text-transform: uppercase; font-weight: bold;}
     .email-header-row p     {font-size: 16px; font-style: italic; margin-bottom: 0;}
@@ -832,6 +832,7 @@ body.outlook p {
 
 
 		.email-section-list {margin-bottom: 25px;}
+    .last-section h1 {color: #000000;}
     .last-section ul      {margin-left: 0; padding: 0;}
     .last-section ul li   {list-style: none; }
     .last-section ul li a {
@@ -842,7 +843,7 @@ body.outlook p {
     .last-section ul li a:link,
     .last-section ul li a:visited,
     .last-section ul li a:hover,
-    .last-section ul li a:active {color: #000000;}
+    .last-section ul li a:active {color: #f58025;}
 
     .last-section .no-border {border-bottom: 0;} /* Removes bottom border from last bullet in last section */
 
@@ -898,7 +899,7 @@ body.outlook p {
                  	  </tr>
                  	  <tr class="email-header-row">
                  	    <td class="email-row-content text-pad">
-                 	      <p>Your monthly TOPS snapshot of healthcare news</p>
+                 	     <span>Your monthly TOPS snapshot of healthcare news</span>
                  	    </td>
                  	  </tr>
                  	</table>
