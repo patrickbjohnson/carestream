@@ -805,32 +805,25 @@ body.outlook p {
     table.columns td, table.column td {padding: 0;}
     .email-header-container table.column td {padding: 0;}
     .email-header           {height: 229px;}
-    .email-header-row       {height: 57px;}   /*  This is breaking everything But only works in LN 8.5*/
-    /*.email-header-row       {padding-bottom: 25px;}/*padding-top: 25px; */
+    .email-header-row       {height: 57px;}   
     .email-header .wrapper  {padding-top: 0; }
     .email-header-row h1    {text-transform: uppercase; font-weight: bold;}
     .email-header-row p     {font-size: 16px; font-style: italic; margin-bottom: 0;}
     .email-header-row h1,
-    .email-header-row p     {line-height: 1; color: #fff;} /*padding-left: 25px;  */
+    .email-header-row p     {line-height: 1; color: #fff;}
     .email-row-content      {vertical-align: middle;}
-    .email-header-contact   {text-align: right;}
-    .email-header-contact a {/*padding-right: 25px;*/ color: #ffffff; text-transform: capitalize;} 
+    .email-header-contact   {text-align: right; line-height: 4;}
+    .email-header-contact a {color: #ffffff; text-transform: capitalize;} 
     .email-header-contact a:visited,
     .email-header-contact a:hover, 
     .email-header-contact a:active {color: #ffffff !important;}
-
     /* === Email Body === */
     .email-content-section h1     { border-top: 1px solid #f58025; padding-top: 15px; margin-bottom: 25px;}
-    /*.email-content-section ul     {margin:25px 0 35px; padding-left: 30px; list-style-position: inside; }*/
     .email-content-section ul li  {margin: 5px 0;}
-    
     table.columns td.quote    {padding: 25px 0; background-color: #f58025;}
     table.columns td.quote h1,
     table.columns td.quote h2 {margin-top: 25px; margin-bottom: 25px;}
     table.columns td.quote h1 {font-style: italic; border-top:0;}
-	
-
-
 		.email-section-list {margin-bottom: 25px;}
     .last-section h1 {color: #000000;}
     .last-section ul      {margin-left: 0; padding: 0;}
@@ -844,31 +837,19 @@ body.outlook p {
     .last-section ul li a:visited,
     .last-section ul li a:hover,
     .last-section ul li a:active {color: #f58025;}
-
-    .last-section .no-border {border-bottom: 0;} /* Removes bottom border from last bullet in last section */
-
-
+    .last-section .no-border {border-bottom: 0;} 
     /* === Email Footer === */
     .email-footer         {height: 235px;}
     .email-footer-row     {height: 55px;}
-    /*.email-footer-row img {margin-right: 5px; margin-left: 5px;}*/
     .footer .wrapper      {padding-top: 30px;}
     .email-footer h1      {margin-bottom: 0;}
     .email-footer a {display: inline-block; margin: 0 5px;}
     .email-footer .logo-img {dislpay: block; margin: 0 auto;}
-
     @media only screen and (max-width: 600px) {
       table.columns td.quote h1 {font-size: 24px;}
       
     }
   </style>
-
-
-
-
-
-
-
 </head>
 <body style="min-width: 100%">
 	<table class="body">
@@ -888,18 +869,18 @@ body.outlook p {
                  <div>
                  	<table class="twelve columns email-header-container">
                  	  <tr class="email-header-row">
-                 	    <td class="twelve columns last email-row-content email-header-contact text-pad" style="padding-top: 20px; padding-bottom: 30px;">
-                 	      <a href="mailto:erica.carnevale@carestream.com">contact</a>
+                 	    <td class="twelve columns last email-row-content email-header-contact">
+                 	      <a href="mailto:erica.carnevale@carestream.com" class="text-pad">contact</a>
                  	    </td>
                  	  </tr>
                  	  <tr class="email-header-row">
-                 	    <td class="email-row-content text-pad" style="padding-bottom: 30px; ">
+                 	    <td class="email-row-content text-pad">
                  	      <h1 >Trendwatch</h1>
                  	    </td>
                  	  </tr>
                  	  <tr class="email-header-row">
                  	    <td class="email-row-content text-pad">
-                 	     <span>Your monthly TOPS snapshot of healthcare news</span>
+                 	     <p>Your monthly TOPS snapshot of healthcare news</p>
                  	    </td>
                  	  </tr>
                  	</table>
