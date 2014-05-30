@@ -785,8 +785,8 @@ body.outlook p {
   <!-- Custom Styles -->
   <style>
   /* === Email Header === */
-  .email-header-admin {height: 90px; background-color: #f58025; color: #ffffff; vertical-align: middle;}
-  .email-header-admin a {color: #ffffff;}
+  .email-header-admin {height: 90px; font-size: 12px; background-color: #f58025; color: #ffffff; vertical-align: middle;}
+  .email-header-admin a {font-size: 12px; color: #ffffff !important; margin-left: 5px; margin-right:5px;}
 
   .email-header-bg {height: 229px; background-color: #f58025;}
 
@@ -795,13 +795,13 @@ body.outlook p {
   .email-header {height: 229px;}
   .email-header-row     {height: 57px;}
   .email-header .wrapper {padding-top: 0; }
-  .email-header-row h1 {text-transform: uppercase; font-weight: bold;}
-  .email-header-row p {font-size: 16px; font-style: italic; margin-bottom: 0;}
+  .email-header-row h1    {font-size: 36px; text-transform: uppercase; font-weight: bold;}
+  .email-header-row p     {font-size: 16px; font-style: italic; margin-bottom: 0;}
   .email-header-row h1,
-  .email-header-row p  {margin-left: 25px; line-height: 1; color: #fff;}
-  .email-row-content {vertical-align: middle;}
-  .email-header-contact {text-align: right; margin-right: 25px;}
-  .email-header-contact a {margin-right: 25px; color: #ffffff; text-transform: capitalize;}
+  .email-header-row p     {line-height: 1; color: #fff;}
+  .email-row-content      {vertical-align: middle;}
+  .email-header-contact {text-align: right;}
+  .email-header-contact a {color: #ffffff; text-transform: capitalize; line-height: 4}
   .email-header-contact a:visited,
   .email-header-contact a:hover, 
   .email-header-contact a:active {color: #ffffff !important;}
@@ -817,35 +817,71 @@ body.outlook p {
   .email-content-post-title {font-weight: bold; margin-top: 10px;}
   .email-content-post-link  {text-decoration: underline; color: #f58025;}
 
+  .flex-container {padding-bottom: 50px !important;}
+  .flex-section h1 {margin-bottom: 20px;}
+  .flex-section a.margin-r-5 {margin-right: 5px;}
+  .flex-section a.margin-l-5 {margin-left: 5px;}
+  .link-margin {display: block; margin-bottom: 20px;}
+  .twitter-section a {color: #f58025; font-weight: bold;}
+  .twitter-section a:link,
+  .twitter-section a:visited,
+  .twitter-section a:hover,
+  .twitter-section a:active {color: #f58025 !important; font-weight: bold;}
+
+
+
   
   table.columns td.quote {padding: 75px 0;}
   table.columns td.quote h1, table.columns td.quote h2 {color: #ffffff;}
   table.columns td.quote h1 {margin-bottom: 25px; font-style: italic;}
 
   .linked-list ul {margin-left: 0; padding: 0;}
-  .linked-list ul li {list-style: none; }
+  .linked-list ul li {list-style-type: none; }
   .linked-list ul li a {
     display: block; 
     padding: 5px 0;
     border-bottom: 1px solid #000000;
   }
-  .linked-list ul li a:link,
+  .linked-list {margin-bottom: 35px;}
+  .linked-list h1 {margin-bottom: 25px;}
+  /*.linked-list ul li a:link,
   .linked-list ul li a:visited,
   .linked-list ul li a:hover,
-  .linked-list ul li a:active {color: #000000;}
+  .linked-list ul li a:active {color: #000000;}*/
+  .linked-list a {
+    /*display: block; */
+    width: 100%;
+    padding: 5px 0;
+    border-bottom: 1px solid #000000;
+    color: #000000 !important;
+  }
 
-  .linked-list .no-border {border-bottom: 0;} /* Removes bottom border from last bullet in last section */
+  .linked-list .no-border {border-bottom: 0; margin-bottom: 35px;} /* Removes bottom border from last bullet in last section */
+  .list-section {padding-bottom: 25px;}
+  .list-section td {border-bottom: 1px solid #000000; height: 35px; vertical-align: middle;}
+  .list-section a {color: #000000 !important;}
+
+  .story-list td {height: 30px; }
+  .story-list a {color: #000000 !important; }
+  .story-list a.no-border {border-bottom: 0; margin-bottom: 35px;}
+
+
 
   .customer-spotlight {vertical-align: middle;}
-  .video-title h1 {border-top: 0; margin-bottom: 40px;}
+  .video-title h1 {border-top: 0; margin-bottom: 20px;}
 
 
   /* === Email Footer === */
-  .email-footer         {height: 235px;}
+  .email-footer         {font-size: 12px; height: 235px;}
   .email-footer-row     {height: 55px;}
   .footer .wrapper      {padding-top: 30px;}
   .email-footer h1      {margin-bottom: 0;}
-  .email-footer a {display: inline-block; margin: 0 5px;}
+  .email-footer a,
+  .email-footer a:link,
+  .email-footer a:visited, 
+  .email-footer a:hover,
+  .email-footer a:active {font-size: 12px; display: inline-block; margin: 0 5px;color: #ffffff !important;}
+  
   .email-footer .logo-img {dislpay: block; margin: 0 auto;}
   
   @media only screen and (max-width: 600px) {
@@ -882,19 +918,44 @@ body.outlook p {
                       <td class="wrapper last">
                         <table class="twelve columns">
                           <tr>
-                            <td class="email-header-admin center">
+                            <td class="email-header-admin center" width="580" height="90">
                               <a href="#">View in Browser</a> | <a href="#">Unsubscribe</a> | <a href="#">Send to Friend</a>
                             </td>
                             <td class="expander"></td>
                           </tr>
                         </table>
-                        <table class="email-header-bg twelve columns" style="background: url(images/carestream-bg.png);" bgcolor="#f58025">
+                        <table class="email-header-bg twelve columns" bgcolor="#f58025">
                           <tr>
-                            <td class="email-header-row">
-                              <h1>From the stream</h1>
-                              <p>Your monthly digest of can't miss health imaging and IT news and updates.</p>
-                            </td>
-                            <td class="expander"></td>
+                            <td class="center" align="center" background="http://clients.pbj.me/carestream/images/carestream-bg.png" bgcolor="#f58025" width="580" height="229" valign="top">
+                           <!--[if gte mso 9]>
+                           <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:580px;height:229px;">
+                             <v:fill type="tile" src="http://clients.pbj.me/carestream/images/carestream-bg.png" color="#f58025" />
+                             <v:textbox inset="0,0,0,0">
+                           <![endif]-->
+                             <div>
+                              <table class="twelve columns email-header-container">
+                                <tr class="email-header-row">
+                                  <td class="twelve columns last email-row-content email-header-contact">
+                                    <a href="mailto:erica.carnevale@carestream.com" class="text-pad">contact</a>
+                                  </td>
+                                </tr>
+                                <tr class="email-header-row">
+                                  <td class="email-row-content text-pad">
+                                    <h1>From the Stream</h1>
+                                  </td>
+                                </tr>
+                                <tr class="email-header-row">
+                                  <td class="email-row-content text-pad">
+                                   <p>Your monthly digest of can't miss health imaging and IT news and updates.</p>
+                                  </td>
+                                </tr>
+                              </table>
+                             </div>
+                             <!--[if gte mso 9]>
+                               </v:textbox>
+                             </v:rect>
+                             <![endif]-->
+                           </td>
                           </tr>
                         </table>
                       </td>
@@ -958,14 +1019,38 @@ body.outlook p {
 
                       <table class="twelve columns">
                         <tr>
-                          <td class="email-content-section text-pad linked-list">
-                            <h1>Some other stories you might be intersted in:</h1>
-                            <ul>
+                          <td class="email-content-section text-pad">
+                            <h1 style="margin-bottom: 25px;">Some other stories you might be intersted in:</h1>
+                                <tr>
+                                  <td class="text-pad list-section">
+                                    <table width="100%" style="margin-bottom: 35px;">
+
+                                      <tr>
+                                        <td><a href="#">Here is the 1st link</a></td>
+                                      </tr>
+                                      <tr>
+                                        <td><a href="#">Here is the 2st link</a></td>
+                                      </tr>
+                                      <tr>
+                                        <td><a href="#">Here is the 3rd link</a></td>
+                                      </tr>
+                                      <tr>
+                                        <td><a href="#" class="no-border">Here is the 4st link</a></td>
+                                      </tr>
+                                    </table>
+                                  </td>
+                                </tr>
+                               
+                              
+                            
+
+                              
+                            <!-- <ul>
                               <li><a href="#">Here is the 1st link</a></li>
-                              <li><a href="#">Here is the 2st link</a></li>
+                              <li><a href="#"></a></li>
                               <li><a href="#">Here is the 3st link</a></li>
                               <li><a href="#" class="no-border">Here is the 4st link</a></li>
-                            </ul>
+                            </ul> -->
                           </td>
                           <td class="expander"></td>
                         </tr>
@@ -985,8 +1070,8 @@ body.outlook p {
                             <table>
                               <tr>
                                 <td class="quote" bgcolor="#f58025" width="580">
-                                  <h1 class="center">“This is a title example”</h1>
-                                  <h2 class="center">- The Author, Apple</h2>
+                                  <h1 class="center text-pad">“This is a title example”</h1>
+                                  <h2 class="center text-pad">- The Author, Apple</h2>
                                 </td>
                               </tr>
                             </table>
@@ -1011,7 +1096,7 @@ body.outlook p {
                       </table>
                       <table class="twelve columns">
                         <tr>
-                          <td class="eight columns customer-spotlight text-pad-left">
+                          <td class="eight columns customer-spotlight text-pad">
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
                           </td>
                           <td class="three columns customer-spotlight text-pad-right last">
@@ -1034,7 +1119,7 @@ body.outlook p {
                       <table class="twelve columns">
                         <tr>
                           <td class="email-content-section video-title text-pad">
-                            <h1 class="center">This is a title example</h1>
+                            <h1 class="center">Video Title</h1>
                             <a href="#">
                               <img class="center" width="580" height="300" src="http://placehold.it/580x300">
                             </a>
@@ -1043,6 +1128,30 @@ body.outlook p {
                         </tr>
                       </table>
 
+                    </td>
+                  </tr>
+                </table>
+
+                <!-- Column Layout -->
+                <table class="row">
+                  <tr>
+                    <td class="wrapper last flex-container">
+                      <table class="twelve columns">
+                        <tr>
+                          <td class="six columns email-content-section flex-section twitter-section text-pad-left">
+                            <h1>Carestream on Twitter</h1>
+                            <p><a class="margin-r-5" href="#">@edwardbock</a>Great HBR article on millennials in the workplace. Comment section below is just as good. <a href="#">More</a></p>
+                            <p>Check out hte latest Advisory Board tweets and follow <a href="#">@daily_briefing.</a></p>
+                            
+                            <a href="#" class="link-margin carestream-twitter">Check out our Twitter</a>
+                          </td>
+                          <td class="six columns email-content-section flex-section text-pad">
+                            <h1>TIP of the Month</h1>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                          </td>
+                          <td class="expander"></td>
+                        </tr>
+                      </table>
                     </td>
                   </tr>
                 </table>
@@ -1071,38 +1180,41 @@ body.outlook p {
                         <table class="twelve columns">
                           <tr class="email-footer-row">
                             <td class="center">
-                              <a href="#"><img src="images/carestream-logo.png" alt="Carestream.com" /></a>
+                              <a href="#"><img src="images/carestream-logo.jpg" alt="Carestream.com" /></a>
                             </td>
                           </tr>
                           <tr class="email-footer-row">
                             <td >
                               <center>
-                                <a href="https://twitter.com/Carestream" height="31" width="31"><img src="images/carestream-twitter.png" alt="Follow Carestream on Twitter" /></a><a href="https://www.facebook.com/carestream" height="31" width="31"><img src="images/carestream-facebook.png" alt="Like Carestream on Facebook" /></a><a href="https://www.linkedin.com/company/carestream-health" height="31" width="31"><img src="images/carestream-linkedin.png" alt="Follow Carestream on LinkedIn" /></a><a href="https://www.youtube.com/user/carestreamhealth1"><img src="images/carestream-youtube.png" alt="Watch Carestream on YouTube" /></a>
+                                <a href="https://twitter.com/Carestream" border="0" height="31" width="34" bgcolor="#f58025" style="margin-top:30px"><img src="http://clients.pbj.me/carestream/images/carestream-twitter.jpg" alt="Follow Carestream on Twitter" align="center"/></a>
+                                <a href="https://www.facebook.com/carestream" border="0" height="31" width="34" style="margin-top:30px"><img src="http://clients.pbj.me/carestream/images/carestream-facebook.jpg" alt="Like Carestream on Facebook" align="center"/></a>
+                                <a href="https://www.linkedin.com/company/carestream-health" border="0" height="31" width="34" style="margin-top:30px"><img src="http://clients.pbj.me/carestream/images/carestream-linkedin.jpg" alt="Follow Carestream on LinkedIn" align="center"/></a>
+                                <a href="https://www.youtube.com/user/carestreamhealth1" style="margin-top:30px"><img src="http://clients.pbj.me/carestream/images/carestream-youtube.jpg" alt="Watch Carestream on YouTube" height="31" width="34" align="center"/></a>
                               </center>
                             </td>
                             <td class="expander"></td>
                           </tr>
                         </table>
                       </td>
-                      <td class="wrapper last"></td>
+                      <!-- <td class="wrapper last"></td> -->
                     </tr>
                     <tr>
                       <td class="wrapper last">
                         <table class="row">
                           <tr>
-                            <td class="wrapper last">
+                            <td>
 
                               <table class="twelve columns">
                                 <tr>
-                                  <td align="center">
+                                  <td align="center" style="color: #ffffff; font-size:12px; margin-bottom: 15px;">
                                     <center>
-                                      &copy; 2014, Carestream    
+                                      &copy; 2014, Carestream
                                     </center>
                                   </td>
                                 </tr>
                                 <tr>
 
-                                  <td align="center">
+                                  <td align="center" style="color: #ffffff;">
                                     <center>
                                       <a href="#">View in Browser</a> | <a href="#">Unsubscribe</a> | <a href="#">Send to Friend
                                     </center>
