@@ -1,5 +1,9 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns:v="urn:schemas-microsoft-com:vml">
+<!-- 
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="http://www.w3.org/1999/xhtml"> -->
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta name="viewport" content="width=device-width"/>
@@ -801,10 +805,7 @@ body.outlook p {
   .email-header-row p     {line-height: 1; color: #fff;}
   .email-row-content      {vertical-align: middle;}
   .email-header-contact {text-align: right;}
-  .email-header-contact a {color: #ffffff; text-transform: capitalize; line-height: 4}
-  .email-header-contact a:visited,
-  .email-header-contact a:hover, 
-  .email-header-contact a:active {color: #ffffff !important;}
+  .email-header-contact a {color: #ffffff; text-transform: capitalize; line-height: 4;}
 
   /* === Email Body === */
   .email-content-section {padding-top: 50px !important;}
@@ -821,14 +822,9 @@ body.outlook p {
   .flex-section h1 {margin-bottom: 20px;}
   .flex-section a.margin-r-5 {margin-right: 5px;}
   .flex-section a.margin-l-5 {margin-left: 5px;}
+  .flex-section a {color: #f58025; font-weight: bold}
+  /*.flex-section-link {color: #f58025 !important; font-weight: bold}*/
   .link-margin {display: block; margin-bottom: 20px;}
-  .twitter-section a {color: #f58025; font-weight: bold;}
-  .twitter-section a:link,
-  .twitter-section a:visited,
-  .twitter-section a:hover,
-  .twitter-section a:active {color: #f58025 !important; font-weight: bold;}
-
-
 
   
   table.columns td.quote {padding: 75px 0;}
@@ -844,12 +840,7 @@ body.outlook p {
   }
   .linked-list {margin-bottom: 35px;}
   .linked-list h1 {margin-bottom: 25px;}
-  /*.linked-list ul li a:link,
-  .linked-list ul li a:visited,
-  .linked-list ul li a:hover,
-  .linked-list ul li a:active {color: #000000;}*/
   .linked-list a {
-    /*display: block; */
     width: 100%;
     padding: 5px 0;
     border-bottom: 1px solid #000000;
@@ -868,7 +859,8 @@ body.outlook p {
 
 
   .customer-spotlight {vertical-align: middle;}
-  .video-title h1 {border-top: 0; margin-bottom: 20px;}
+  .video-title {padding-top: 50px !important;}
+  .video-title h1 {border-top: 0; margin-bottom: 20px; padding-top: 15px;}
 
 
   /* === Email Footer === */
@@ -885,16 +877,9 @@ body.outlook p {
   .email-footer .logo-img {dislpay: block; margin: 0 auto;}
   
   @media only screen and (max-width: 600px) {
-      
-      table[class="body"] .columns td.customer-spotlight.eight {
-        width: 90% !important;
-        margin: 0;
-        padding-left: 10px !important;
-        padding-right: 10px !important;
-      }
-
+    
       table[class="body"] .columns td.flex-section.six {
-        width: 95% !important;
+        width: 90% !important;
         margin: 0;
         padding-left: 10px !important;
         padding-right: 10px !important;
@@ -926,24 +911,26 @@ body.outlook p {
                         <table class="twelve columns">
                           <tr>
                             <td class="email-header-admin center" width="580" height="90">
-                              <a href="#">View in Browser</a> | <a href="#">Unsubscribe</a> | <a href="#">Send to Friend</a>
+                              <a href="#"><span style="color:#ffffff;">View in Browser</span></a> | <a href="#"><span style="color:#ffffff;">Unsubscribe</span></a> | <a href="#"><span style="color:#ffffff;">Send to Friend</span></a>
                             </td>
                             <td class="expander"></td>
                           </tr>
                         </table>
-                        <table class="email-header-bg twelve columns" bgcolor="#f58025">
+                        <table class="email-header-bg twelve columns" bgcolor="#f58025" height="229">
                           <tr>
-                            <td class="center" align="center" background="http://clients.pbj.me/carestream/images/carestream-bg.png" bgcolor="#f58025" width="580" height="229" valign="top">
+
+
+                            <td class="center" align="center" style="background-image: url('http://clients.pbj.me/carestream/images/carestream-bg.jpg');" background="http://clients.pbj.me/carestream/images/carestream-bg.jpg" bgcolor="#f58025" width="580" height="229" valign="top">
                            <!--[if gte mso 9]>
                            <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:580px;height:229px;">
-                             <v:fill type="tile" src="http://clients.pbj.me/carestream/images/carestream-bg.png" color="#f58025" />
+                             <v:fill type="tile" src="http://clients.pbj.me/carestream/images/carestream-bg.jpg" color="#f58025" />
                              <v:textbox inset="0,0,0,0">
                            <![endif]-->
                              <div>
                               <table class="twelve columns email-header-container">
                                 <tr class="email-header-row">
-                                  <td class="twelve columns last email-row-content email-header-contact">
-                                    <a href="mailto:erica.carnevale@carestream.com" class="text-pad">contact</a>
+                                  <td class="email-row-content email-header-contact text-pad">
+                                    <a href="mailto:erica.carnevale@carestream.com">Contact</a>
                                   </td>
                                 </tr>
                                 <tr class="email-header-row">
@@ -988,7 +975,7 @@ body.outlook p {
                       <table class="twelve columns">
                         <tr>
                           <td class="text-pad">
-                            <img width="580" height="300" src="http://placehold.it/580x300">
+                            <img class="center" align="center" width="540" height="350" src="http://clients.pbj.me/carestream/images/main-email-img.jpg">
                           </td>
                           <td class="expander"></td>
                         </tr>
@@ -1006,7 +993,7 @@ body.outlook p {
                       <table class="twelve columns">
                         <tr>
                           <td class="email-content-section text-pad">
-                            <h1>This is a title example</h1>
+                            <h1>This is a sample title</h1>
                             <p class="email-content-post-title">Written by Kyle / May 7, 2014</p>
                             <p>It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions.</p>
                             <a href="#" class="email-content-post-link">Read More</a>
@@ -1019,7 +1006,7 @@ body.outlook p {
                   </tr>
                 </table>
 
-                <!-- Quote Section -->
+                <!-- Link Section -->
                 <table class="row">
                   <tr>
                     <td class="wrapper last">
@@ -1028,36 +1015,24 @@ body.outlook p {
                         <tr>
                           <td class="email-content-section text-pad">
                             <h1 style="margin-bottom: 25px;">Some other stories you might be intersted in:</h1>
-                                <tr>
-                                  <td class="text-pad list-section">
-                                    <table width="100%" style="margin-bottom: 35px;">
-
-                                      <tr>
-                                        <td><a href="#">Here is the 1st link</a></td>
-                                      </tr>
-                                      <tr>
-                                        <td><a href="#">Here is the 2st link</a></td>
-                                      </tr>
-                                      <tr>
-                                        <td><a href="#">Here is the 3rd link</a></td>
-                                      </tr>
-                                      <tr>
-                                        <td><a href="#" class="no-border">Here is the 4st link</a></td>
-                                      </tr>
-                                    </table>
-                                  </td>
-                                </tr>
-                               
-                              
-                            
-
-                              
-                            <!-- <ul>
-                              <li><a href="#">Here is the 1st link</a></li>
-                              <li><a href="#"></a></li>
-                              <li><a href="#">Here is the 3st link</a></li>
-                              <li><a href="#" class="no-border">Here is the 4st link</a></li>
-                            </ul> -->
+                              <tr>
+                                <td class="text-pad list-section">
+                                  <table width="100%" style="margin-bottom: 35px;">
+                                    <tr>
+                                      <td><a href="#"><span style="color:#000001;">Here is the 1st link</span></a></td>
+                                    </tr>
+                                    <tr>
+                                      <td><a href="#"><span style="color:#000001;">Here is the 2st link</span></a></td>
+                                    </tr>
+                                    <tr>
+                                      <td><a href="#"><span style="color:#000001;">Here is the 3rd link</span></a></td>
+                                    </tr>
+                                    <tr>
+                                      <td><a href="#" class="no-border"><span style="color:#000001;">Here is the 4st link</span></a></td>
+                                    </tr>
+                                  </table>
+                                </td>
+                              </tr>
                           </td>
                           <td class="expander"></td>
                         </tr>
@@ -1066,14 +1041,15 @@ body.outlook p {
                     </td>
                   </tr>
                 </table>
-
+                
+                <!-- Quote Section -->
                 <table class="row">
                   <tr>
                     <td class="wrapper last">
 
                       <table class="twelve columns">
                         <tr>
-                          <td class="text-pad linked-list"> 
+                          <td class="linked-list text-pad"> 
                             <table>
                               <tr>
                                 <td class="quote" bgcolor="#f58025" width="580">
@@ -1101,13 +1077,27 @@ body.outlook p {
                           <td class="expander"></td>
                         </tr>
                       </table>
-                      <table class="twelve columns">
+                    </td>
+                  </tr>
+                </table>
+
+                <table class="row">
+                  <tr>
+                    <td class="wrapper customer-spotlight">
+                      <table class="eight columns">
                         <tr>
-                          <td class="eight columns customer-spotlight text-pad">
+                          <td class="text-pad">
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
                           </td>
-                          <td class="three columns customer-spotlight text-pad-right last">
-                            <img width="135" height="135" src="http://placehold.it/135x135">
+                          <td class="expander"></td>
+                        </tr>
+                      </table>
+                    </td>
+                    <td class="wrapper last customer-spotlight">
+                      <table class="four columns">
+                        <tr>
+                          <td class="text-pad">
+                            <img width="135" height="135" align="right" src="http://clients.pbj.me/carestream/images/carestream-user.jpg">
                           </td>
                           <td class="expander"></td>
                         </tr>
@@ -1116,20 +1106,19 @@ body.outlook p {
                   </tr>
                 </table>
 
-
                 <!-- Video Section -->
-
                 <table class="row">
                   <tr>
                     <td class="wrapper last">
 
                       <table class="twelve columns">
                         <tr>
-                          <td class="email-content-section video-title text-pad">
+                          <td class="video-title text-pad">
                             <h1 class="center">Video Title</h1>
                             <a href="#">
-                              <img class="center" width="580" height="300" src="http://placehold.it/580x300">
+                              <img class="center" align="center" width="540" height="304" src="http://clients.pbj.me/carestream/images/video-bg.jpg">
                             </a>
+                            
                           </td>
                           <td class="expander"></td>
                         </tr>
@@ -1147,10 +1136,9 @@ body.outlook p {
                         <tr>
                           <td class="six columns email-content-section flex-section twitter-section text-pad-left">
                             <h1>Carestream on Twitter</h1>
-                            <p><a class="margin-r-5" href="#">@edwardbock</a>Great HBR article on millennials in the workplace. Comment section below is just as good. <a href="#">More</a></p>
-                            <p>Check out hte latest Advisory Board tweets and follow <a href="#">@daily_briefing.</a></p>
-                            
-                            <a href="#" class="link-margin carestream-twitter">Check out our Twitter</a>
+                            <p><a href="#"><span style="color: #f58025;">@edwardhock</span></a>: Great HBR article on millennials in the workplace. Comment section below is just as good. <a href="#"><span style="color: #f58025;">More.</span></a></p>
+                            <p>Check out the latest Advisory Board tweets and follow <a href="#"><span style="color: #f58025;">@daily_briefing</span></a>.</p>
+                            <a href="#"><span style="color: #f58025;">Check out our Twitter</span></a>
                           </td>
                           <td class="six columns email-content-section flex-section text-pad">
                             <h1>TIP of the Month</h1>
@@ -1162,13 +1150,6 @@ body.outlook p {
                     </td>
                   </tr>
                 </table>
-
-
-
-
-
-                
-
                 <!-- container end below -->
               </td>
             </tr>
@@ -1186,8 +1167,8 @@ body.outlook p {
 
                         <table class="twelve columns">
                           <tr class="email-footer-row">
-                            <td class="center">
-                              <a href="#"><img src="http://clients.pbj.me/carestream/images/carestream-logo.jpg" alt="Carestream.com" /></a>
+                            <td class="center" align="center">
+                              <a href="#" class="center" align="center" ><img class="center" align="center" src="http://clients.pbj.me/carestream/images/carestream-logo.jpg" alt="Carestream.com" /></a>
                             </td>
                           </tr>
                           <tr class="email-footer-row">
@@ -1203,7 +1184,6 @@ body.outlook p {
                           </tr>
                         </table>
                       </td>
-                      <!-- <td class="wrapper last"></td> -->
                     </tr>
                     <tr>
                       <td class="wrapper last">
@@ -1223,7 +1203,8 @@ body.outlook p {
 
                                   <td align="center" style="color: #ffffff;">
                                     <center>
-                                      <a href="#">View in Browser</a> | <a href="#">Unsubscribe</a> | <a href="#">Send to Friend
+
+                                      <a href="#"><span style="color: #ffffff;">View In Browser</span></a> | <a href="#"><span style="color: #ffffff;">Unsubscribe</span></a> | <a href="#"><span style="color: #ffffff;">Send to Friend</span>
                                     </center>
                                   </td>
                                   <td class="expander"></td>
