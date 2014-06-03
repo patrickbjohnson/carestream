@@ -1,0 +1,95 @@
+============================================================
+FROM THE STREAM
+Your monthly digest of can't miss health imaging and IT news 
+and updates.
+============================================================
+
+This is a sample title
+Written by Kyle / May 7, 2014
+
+It was popularised in the 1960s with the release of Letraset 
+sheets containing Lorem Ipsum passages, and more recently 
+with desktop publishing software like Aldus PageMaker 
+including versions.
+
+LINK: 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Some other stories you might be intersted in:
+
+- First Article Title
+  LINK: 
+  
+- Second Article Title
+  LINK: 
+
+- Third Article Title
+  LINK: 
+
+- Fourth Article Title
+  LINK: 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+"This is a title example quote that shouldn’t go best the 
+edge of the text only layout.” 
+- The Author, Apple
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Customer Spotlight
+
+Lorem Ipsum is simply dummy text of the printing and 
+typesetting industry. Lorem Ipsum has been the industry's 
+standard dummy text ever since the 1500s.
+
+LINK: 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Video Title
+
+LINK: 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Carestream on Twitter
+
+@edwardhock: Great HBR article on millennials in the 
+workplace. Comment section below is just as good.
+
+LINK: 
+
+Check out the latest Advisory Board tweets and 
+follow @daily_briefing.
+
+LINK: 
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+TIP of the Month
+
+Lorem Ipsum is simply dummy text of the printing and 
+typesetting industry. Lorem Ipsum has been the industry's 
+standard dummy text ever since the 1500s. Lorem Ipsum is 
+simply dummy text of the printing and typesetting industry.
+Lorem Ipsum has been the industry's standard dummy text 
+ever since the 1500s.
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Twitter
+https://twitter.com/Carestream
+
+Facebook
+https://www.facebook.com/carestream
+
+LinkedIn
+https://www.linkedin.com/company/carestream-health
+
+Youtube
+https://www.youtube.com/user/carestreamhealth1
+
