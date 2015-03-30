@@ -4,13 +4,23 @@ TRENDWATCH - Your monthly TOPS snapshot of healthcare news
 
 What does the C-suite think is the key to imaging program success?
 
-- Advisory Board research reported that the C-Suite, when evaluating imaging performance, volume growth is not a CXOs priority
+- Advisory Board research reported that the C-Suite, when 
+  evaluating imaging performance, volume growth is not a 
+  CXOs priority
   
-- Ranked factors include: 91 % patient experience, 91 % cost containment, -91 % clinical quality, 77 % physician alignment, and 77 % growth strategy
+- Ranked factors include: 91 % patient experience, 91% 
+  cost containment, -91 % clinical quality, 77 % physician
+  alignment, and 77 % growth strategy
   
-- Imaging directors can no longer rely on traditional measures of success to ensure their value and leadership role within the hospital
+- Imaging directors can no longer rely on traditional 
+  measures of success to ensure their value and leadership
+  role within the hospital
 
-Dialog Starters:  Have you cascaded institutional objectives to your department? How are your success measures changing? Will your workflow change to address patient experience gaps or capture cost savings? Are you evaluating tools to enhance clinical quality? 
+Dialog Starters:  Have you cascaded institutional 
+objectives to your department? How are your success measures 
+changing? Will your workflow change to address patient 
+experience gaps or capture cost savings? Are you 
+evaluating tools to enhance clinical quality? 
 
 LINK: http://www.advisory.com/research/imaging-performance-partnership/the-reading-room/2014/04/what-does-the-c-suite-think-is-the-key-to-imaging-program-success-hint-its-not-growth?elq=d3c7722009c248d282e92c53789d2666&elqCampaignId=7768
 
@@ -18,13 +28,22 @@ LINK: http://www.advisory.com/research/imaging-performance-partnership/the-readi
 
 Investing in Patient Experience Protects Hospital Revenue
 
-- Under the Value-Based Purchasing program, hospitals can either lose or gain up to 1.25% of their Medicare payments in fiscal year 2014 based in part on their patient satisfaction scores
+- Under the Value-Based Purchasing program, hospitals can
+  either lose or gain up to 1.25% of their Medicare payments in fiscal year 2014 based in part on their patient satisfaction scores
   
-- CMS will up the ante over the next few years, with 2% of reimbursement dollars ultimately being at risk by fiscal year 2017
+- CMS will up the ante over the next few years, with 2% 
+  of reimbursement dollars ultimately being at risk by 
+  fiscal year 2017
   
-- Cleveland Clinic established its Office of Patient Experience in 2007 - a "strategic initiative" for the 4,450-bed institution
+- Cleveland Clinic established its Office of 
+  Patient Experience in 2007 - a "strategic initiative"
+  for the 4,450-bed institution
 
-Dialog Starters: How is your system addressing patient satisfaction? Are you part of the committee?  How does radiology measure and report its impact? Are their gaps in your patient experience? How are you sharing images with patients? 
+Dialog Starters: How is your system addressing patient 
+satisfaction? Are you part of the committee?  How does 
+radiology measure and report its impact? Are their gaps 
+in your patient experience? How are you sharing images 
+with patients? 
 
 LINK: http://www.healthleadersmedia.com/page-1/FIN-304643/Investing-in-Patient-Experience-Protects-Hospital-Revenue
 
@@ -32,19 +51,27 @@ LINK: http://www.healthleadersmedia.com/page-1/FIN-304643/Investing-in-Patient-E
 
 ER Visits Jump As Obamacare Kicks In, Doctors Say
 
-- American College of Emergency Physicians poll of 1,800 emergency room doctors indicated a 46 percent increase in patient ER visits 
+- American College of Emergency Physicians poll of 1,800 
+emergency room doctors indicated a 46 percent increase 
+in patient ER visits 
   
-- 86 percent of these doctors believe emergency room use will increase in next three years
+- 86 percent of these doctors believe emergency room use 
+will increase in next three years
   
-- Nearly 30,000 too few primary care physicians in the United States to meet patient demand next year
+- Nearly 30,000 too few primary care physicians in the 
+United States to meet patient demand next year
 
-Dialog Starters: Is your prospect anticipating an increase? How will imaging strategy be impacted? Are portable imaging needs changing? Would a mobile viewer or patient portal impact physician and patient satisfaction? 
+Dialog Starters: Is your prospect anticipating an increase? 
+How will imaging strategy be impacted? Are portable imaging 
+needs changing? Would a mobile viewer or patient portal 
+impact physician and patient satisfaction? 
 
 LINK: http://www.huffingtonpost.com/2014/05/21/obamacare-emergency-room_n_5352987.html?utm_hp_ref=health-care
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-"We don't feel confident we can attest in 2014 and maintain our current level of patient safety." 
+"We don't feel confident we can attest in 2014 and maintain 
+our current level of patient safety." 
     - Intermountain Healthcare CIO Marc Probst
 
 LINK: http://www.healthleadersmedia.com/page-1/TEC-301472/Intermountain-to-Miss-2014-Meaningful-Use-Attestation-Deadline-Citing-Safety-Concerns
